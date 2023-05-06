@@ -1,0 +1,16 @@
+# Prueba tecnica Axovia Bryan Daivd Sanabria Azuaje
+***
+
+los datos se traen de un backend y, todos los filtrados funcionan desde el frontend le di un poco de mi toque personal
+
+no habia diseño responsive mobile asi que hice mi intento de solucionarlo haciendo que se vea bien hasta los 500px pixeles en adelante
+
+Las tecnologias usadas fue Reactjs con redux y sweetAlert y una api creada en strapi framework que usaran en un futuro proyecto, pense usar nextjs pero era algo simple asi que termine usando Reactjs
+
+Espero que sea de agrado mi prueba tecnica aqui estara adjuntado el github del back y la url del server, Les envio un gran saludo equipo de Axovia, espero poder trabajar con ustedes :3
+
+url de mi linkendin:https://www.linkedin.com/in/bryan-david-sanabria-azuaje-025040253/
+
+url de la api:https://backpruebatecnicacakes-production.up.railway.app/api/cakes?populate=*
+
+url del back y de mi github:https://github.com/Bryansss1/back_prueba_tecnica_cakes

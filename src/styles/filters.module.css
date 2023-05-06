@@ -1,0 +1,91 @@
+
+
+option,select,input,button{
+    font-family: 'Lato', 'Font Awesome 5 Free';
+}
+.autocomplete p{
+    cursor: pointer;
+}
+.autocomplete{
+position:absolute;
+display: flex;
+flex-direction: column;
+gap: .5rem;
+height: 6rem;
+overflow: auto;
+font-family: 'Mulish', sans-serif;
+font-family: 'Sarabun', sans-serif;
+border-radius: 5%;
+padding: 1rem;
+background-color: #ffffffb0;
+}
+button{
+    cursor: pointer;
+    transition: all .2s;
+}
+button:hover{
+box-shadow: 2px 2px 30px 2px rgba(130, 141, 238, 0.836);
+transform: scale(1.1);
+}
+.search_button{
+    max-width: 5rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(238, 130, 238, 0.397);
+}
+.contenedor{
+border-top-right-radius: 3%;
+border-top-left-radius: 3%;
+padding: 1rem;
+align-items: center;
+justify-content: center;
+display:flex;
+background-color: #edbde665;
+}
+
+.contenedor input{
+    width: 6rem;
+    height: 40px;
+    margin: 0 7px 1px 0;
+    padding: 13px 9px 12px 10px;
+    border-radius: 8px;
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+}
+.contenedor select{
+    width: 95px;
+    height: 44px;
+    margin: 0 8px 1px 7px;
+    padding: 13px 9px 12px 10px;
+    color:#4a4a4a;
+    font-size: 11px;
+    border-radius: 8px;
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+}
+@media screen and (max-width:700px) {
+    .contenedor{
+        justify-content: center;
+        align-items: center;
+        gap: .5rem 0rem;
+        grid-template-columns: repeat(3,2fr);
+        display: grid;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .contenedor{
+        justify-content: center;
+        align-items: center;
+        gap: .5rem 0rem;
+        grid-template-columns: repeat(2,2fr);
+        display: grid;
+    }
+
+}
+
+
+
+

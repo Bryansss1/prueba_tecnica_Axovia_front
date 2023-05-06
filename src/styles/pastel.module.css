@@ -1,0 +1,122 @@
+.contenedor{
+width: 90%;
+font-family: 'Mulish', sans-serif;
+font-family: 'Sarabun', sans-serif;
+border: solid 1px #e1e1e1;
+margin: auto;
+margin-top: 2rem;
+border-radius: 8px;
+background-color: #fff;
+}
+.contenedor_title{
+    font-size:1.2rem ;
+    margin-left: 2rem;
+    font-weight: bold;
+    color: #434244;
+}
+.contenedor_encabezado{
+font-size: 1.1rem;
+border-bottom: 1px solid #e1e1e1;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.contenedor_combo{
+    display: flex;
+    gap: .1rem;
+}
+.contenedor_combo p{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 1rem 3rem;
+}
+.contenedor_combo p:nth-child(1){
+    background-color: #eb5e70;
+}
+.contenedor_combo p:nth-child(2){
+    background-color: #f7aa76;
+}
+
+.pastel_seccion{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 0rem 2rem;
+    margin-top: 2rem;
+}
+.pastel_seccion img{
+    width: 9.2rem;
+    height: 7.4rem;
+    padding: 0rem .5rem;
+}
+
+
+.pastel_seccion_description{
+color:gray;
+position: relative;
+bottom: 1rem;
+font-size: .87rem;
+}
+.pastel_seccion_description span{
+font-weight: 900;
+color: rgba(0, 0, 0, 0.651);
+}
+.pastel_seccion_description h4{
+    height: 6rem;
+    overflow: auto;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+
+.pastel_seccion_prices{
+text-align: center;
+position: relative;
+bottom: 1.5rem;
+right: 1.2rem;
+display: flex;
+flex-direction: column;
+gap: .7rem 0rem;
+}
+.pastel_seccion_prices p:nth-child(1){
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 900;
+}
+.pastel_seccion_prices p:nth-child(2){
+    color: #4a4a4a;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.pastel_seccion_prices small{
+    font-size: .7rem;
+    color: #808285;
+}
+.pastel_seccion_prices button{
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+    top: .8rem;
+    color: #FFF;
+    font-weight: bold;
+    font-size: .9rem;
+    border: none;
+    padding: .6rem;
+    border-radius: 17.5px;
+    background-color: #299798;
+}
+
+@media screen and (max-width:700px) {
+    .pastel_seccion_prices button{
+        color: #ffffff;
+        font-size: .5rem;
+        padding: .7rem;
+    }
+    .pastel_seccion_prices p:nth-child(2){
+
+        font-size: 1.3rem;
+      
+    }
+}
