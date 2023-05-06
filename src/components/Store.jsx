@@ -12,7 +12,7 @@ const loading=useSelector(state=>state.loading)
     return (
         <section className={styles.contenedor}>
             <Filters/>
-            {loading?<h2>s</h2>:<>{cakes?.map((cake,index)=><PastelCard key={cake.id} cake={cake}/>)}</>}
+            {loading?<div class="lds-heart"><div></div></div>:<>{cakes?.map((cake,index)=><PastelCard key={cake.id} cake={cake}/>)}</>}
         </section>
     );
 
